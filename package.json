@@ -1,0 +1,18 @@
+{
+  "name": "sequelizedb",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --import=extensionless/register server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "extensionless": "^1.9.9",
+    "nodemon": "^3.1.9"
+  }
+}
