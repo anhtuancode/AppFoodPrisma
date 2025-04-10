@@ -11,8 +11,15 @@
     "dev": "nodemon --import=extensionless/register server.js"
   },
   "dependencies": {
+    "@prisma/client": "^6.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
     "express": "^5.1.0",
     "extensionless": "^1.9.9",
+    "mysql2": "^3.14.0",
     "nodemon": "^3.1.9"
+  },
+  "devDependencies": {
+    "prisma": "^6.6.0"
   }
 }
